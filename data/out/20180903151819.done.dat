@@ -1,0 +1,5 @@
+- Arquivos .dat de entrada processados -
+Quantidade de clientes (não únicos): 4 (únicos): 3
+Quantidade de vendedores (não únicos): 6 (únicos): 5
+ID da venda mais cara processada: 12345
+Pior vendedor (menor total dentre as vendas processadas): Julio dos Santos

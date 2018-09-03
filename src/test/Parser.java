@@ -24,8 +24,8 @@ public class Parser {
 	private static final String SALE_INFO = "003";
 	private static final String INPUT_PATH = "data\\in\\";
 	private static final String OUTPUT_PATH = "data\\out\\";
-	//private static String homePath = System.getenv("HOMEPATH") != null ? System.getenv("HOMEPATH") : "\\";
-	private static String homePath = "C:\\test\\";
+	private static String homePath = System.getenv("HOMEPATH") != null ? System.getenv("HOMEPATH") : "\\";
+	//private static String homePath = "C:\\test\\";
 			
 	public static void main(String[] args) {
 		try {

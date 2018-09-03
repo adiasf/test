@@ -156,8 +156,8 @@ public class Parser {
 		outputFile.write("- Arquivos .dat de entrada processados -" + lineSeparator + 
 				"Quantidade de clientes (não únicos): "+Integer.toString(customerQuant) + " (únicos): " + Integer.toString(customerQuantUniq) + lineSeparator +
 				"Quantidade de vendedores (não únicos): " + Integer.toString(salesmanQuant) + " (únicos): " + Integer.toString(salesmanQuantUniq) + lineSeparator +
-				"ID da venda mais cara processada: "+((mostExpensiveSale != 0L) ? Long.toString(mostExpensiveSale) : "Sem info de vendas")+lineSeparator+
-				"Pior vendedor (menor total dentre as vendas processadas): "+leastEffectiveSalesman+lineSeparator);
+				"ID da venda mais cara processada: "+((mostExpensiveSale != 0L) ? Long.toString(mostExpensiveSale) : "Sem info de vendas") + lineSeparator +
+				"Pior vendedor (menor total dentre as vendas processadas): " + leastEffectiveSalesman+lineSeparator);
 		outputFile.close();
 	}
 
